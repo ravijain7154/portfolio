@@ -1,0 +1,134 @@
+#main {
+    /* padding: 15px 0px; */
+    margin-top: 20px;
+}
+
+.navbar.navbar-expand {
+    background: #2a334661;
+    border-radius: 50px;
+    padding: 0px 35px;
+    top: 10px;
+    backdrop-filter: blur(30px);
+    color: #fff;
+}
+
+.navbar.navbar-expand a {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+/* side bar */
+#sidebar-left {
+    position: sticky;
+    top: 10px;
+}
+
+.side-card {
+    background: #2b3345;
+}
+.side-card .side-img-box {
+    background: #fddcb7;
+    padding: 20px 30px;
+}
+
+.side-card .side-img-box .side_card_img {
+    padding: 10px;
+}
+.side-card .side-img-box .side_card_content {
+    color: #000;
+    padding: 10px;
+}
+
+.side-text-box {
+    padding: 30px;
+}
+
+.side-text-box .custom_btn.download-btn {
+    border-radius: 50px;
+    padding: 8px 25px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    gap: 10px;
+    background: #3f4656;
+    border: 1px solid #404655;
+    font-size: 18px;
+    text-transform: uppercase;
+    height: unset;
+}
+.side-text-box .custom_btn.download-btn svg path {
+    /* fill: aliceblue; */
+    stroke: #fff;
+}
+
+
+/* mid section */
+.mid-section {
+    padding: 45px 40px;
+    background: #2a3346;
+}
+.rich-text {
+    text-align: justify;
+}
+.rich-text .title-lg {
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.rich-text .des {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom:20px;
+}
+.btn.custom_btn {
+    color: #fff;
+    padding: 5px 30px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.btn.custom_btn:hover {
+    border: 1px solid #ccc;
+    background: #404655;
+}
+
+.info_list {
+    padding: 0;
+}
+.info_item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 2px 0px;
+    font-size: 18px;
+}
+.info_item a {
+    color: #fff;
+    text-decoration: none;
+}
+.form-group {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+svg#crtBgShape1 {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    fill: #2b3345;
+}
+svg#crtBgShape2 {
+    position: fixed;
+    top: -100px;
+    right: -100px;
+    z-index: -1;
+    fill: #fbdcba;
+}
