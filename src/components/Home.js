@@ -112,8 +112,9 @@ const Personal_info = ({name}) => {
                 </ul>
              </div>
              <hr></hr>
+             <h2 className="title-sm">Professional Skills</h2>
              <div className="col-sm-6 col-12 rich-text">
-                <h2 className="title-sm">Professional Skills</h2>
+                
                 <ul className='info_list'>
                     <li className='info_item'><span className='label'><strong>Name : </strong></span> <a href='#' className='name '>{name}</a></li>
                     <li className='info_item'><span className='label'><strong>Date of Birth : </strong></span><span className=''>March 25, 1999</span> </li>
@@ -122,19 +123,19 @@ const Personal_info = ({name}) => {
                 </ul>
              </div>
              <div className="col-sm-6 col-12 rich-text">
-                <h2 className="title-sm">languages</h2>
+                
                 <ul className='form-group'>
                   <li className='form_item'>
                     <ProgressCircle percentage={80} />
-                    <span className='label'><strong>Html </strong></span> 
+                    <span className='label'><strong>Html & Css</strong></span> 
                   </li>
                   <li className='form_item'> 
                     <ProgressCircle percentage={80} />
-                    <span className='label'><strong>css </strong></span> 
+                    <span className='label'><strong>JS</strong></span> 
                   </li>
                   <li className='form_item'> 
                     <ProgressCircle percentage={75} />
-                    <span className='label'><strong>js</strong></span> 
+                    <span className='label'><strong>React</strong></span> 
                   </li>
                 </ul>
              </div>
