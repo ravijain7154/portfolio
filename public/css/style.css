@@ -64,6 +64,12 @@
     stroke: #fff;
 }
 
+.social_icons svg {
+    width: 22px;
+}
+.social_icons svg + svg {
+    margin-left: 10px;
+}
 
 /* mid section */
 .mid-section {
@@ -131,4 +137,132 @@ svg#crtBgShape2 {
     right: -100px;
     z-index: -1;
     fill: #fbdcba;
+}
+
+
+
+
+/* Bullet/Dot Progress Bar */
+.bullet-progress {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.bullet {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #dddddd00;
+    transition: background-color 0.8s ease;
+    border: 1px solid #fbdcba;
+}
+.bullet.filled {
+  background-color: #fbdcba;
+}
+
+.skill-block {
+  width: 370px;
+  padding: 4px 0;
+  font-family: sans-serif;
+}
+
+.skill-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  margin-bottom: 4px;
+}
+
+.skill-bar-container {
+  width: 100%;
+  height: 6px;
+  background-color: #2a2e33;
+  border-radius: 4px;
+   transition: all 0.8s ease-in-out;
+  overflow: hidden;
+}
+
+.skill-bar-fill {
+  height: 100%;
+  background-color: #fbdcba;
+  border-radius: 4px;
+  transition: all 0.8s ease-in-out;
+}
+
+
+/* exp box */
+.exp-block_content {
+    margin-left: 180px;
+    position: relative;
+    padding: 0px 25px 0px;
+    margin-bottom: 15px;
+}
+.exp-block_content:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width:2px;
+    top: 15px;
+    bottom: 0px;
+    opacity: 0.5;
+    background-color: #fbdcba;
+}
+.exp_box {
+    padding: 0px  20px;
+    position: relative;
+    margin-bottom: 50px;
+}
+.exp_box:before {
+    position: absolute;
+    top: 14px;
+    content: "";
+    width: 4px;
+    background: #fff;
+    height: 4px;
+    left: -1px;
+    border-radius: 50%;
+    right: unset;
+    margin-left: 0;
+    margin: 0;
+}
+span.exp_year {
+    position: absolute;
+    left: auto;
+    right: 100%;
+    width: 150px;
+    padding: 4px 10px;
+    background: #fbdcba;
+    color: #2a3346;
+    text-align: center;
+    text-transform: uppercase;
+    margin-right: 25px;
+    top: 0px;
+}
+span.exp_year:before {
+    position: absolute;
+    content: "";
+    border-top: 16px solid #00000005;
+    border-right: 10px solid #00000000;
+    border-bottom: 16px solid transparent;
+    width: 0;
+    height: 100%;
+    border-left: 16px solid #00000000;
+    right: 0;
+    top: 0;
+    left: 100%;
+    border-left-color: #fbdcba;
+}
+.exp_box:last-child:after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background: #2a3346;
+    bottom: 0px;
+    left: 0;
+    top: 18px;
+    /* opacity: 0.5; */
 }
