@@ -19,19 +19,19 @@ import Work_experience from './WorkExperience' ;
 function Home() {
     return (
         <main id ="main">
-            <div className="container">
+            {/* <div className="container"> */}
                 <div className="row">
-                 <div className="col-sm-3">
+                 <div className="col-md-3 side-bar">
                   <SidebarLeft name ="Ravi Jain" />
                  </div>
-                <div className="col-sm-9 middle">
+                <div className="col-md-9 middle">
                     <Aboutsection name ="Ravi Jain"/>
                     <Personal_info name ="Ravi Jain"/>
                     <Work_experience />
                     
                 </div>
                 </div>
-            </div>
+            {/* </div> */}
         </main>
     );
 }

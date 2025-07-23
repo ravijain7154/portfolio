@@ -9,6 +9,12 @@ const experienceData = [
     responsibilities: [
       "Worked on custom Shopify themes and third-party app integration. ",
       "Developed ecommerce features tailored for jewelry stores.",
+      "Developed and customized Shopify themes for jewelry and lifestyle brands using Liquid, HTML, CSS, JavaScript, and React.",
+      "Built custom sections and dynamic components to enhance storefront UI/UX across Dawn, Refresh, and Horizon themes",
+      "Implemented backend logic for shipping rules, subscriptions, and advanced upsell features.",
+      "Architected metafield structures and filtering systems to support large product inventories.",
+      "Optimized stores for performance, SEO, and mobile responsiveness while managing A/B testing and live support.",
+      "Created advanced functionalities like dynamic pricing, custom checkout flows, and cart logic."
     ],
   },
   {
@@ -16,11 +22,14 @@ const experienceData = [
     role: "Frontend Developer",
     company: "Braintree Products",
     responsibilities: [
+      "Developed and customized over 10+ Shopify storefronts, improving conversion rate and UI/UX.",
       "Develop and maintain user-facing features using HTML, CSS, and JavaScript. ",
-      "Implement responsive designs for various screen sizes. ",
+      "Implement responsive designs that work well across different devices and screen sizes. ",
       "Collaborate with UX/UI team for user-friendly interfaces. ",
-      "Optimize performance and accessibility. ",
-      "Document frontend processes and best practices.",
+      "Optimize web pages for maximum speed and scalability. ",
+      "Write clean, modular, and maintainable code that adheres to industry best practices.",
+      "Collaborate with the UX/UI team to create intuitive and user-friendly interfaces.",
+      "Document frontend development processes, guidelines, and best practices for future reference.",
     ],
   },
   
@@ -55,7 +64,11 @@ const Work_experience = () => {
                      <h3 className="exp_title">{exp.role}</h3>
                      <span className="exp_subtitle">{exp.company}</span>
                      <p className="exp_text">
-                        {exp.responsibilities}
+                      <ul>
+                        {exp.responsibilities.map((text, index) => (
+                          <li key={index}>{text}</li>
+                        ))}
+                        </ul>
                      </p>
                    </div>
                   ))}

@@ -12,7 +12,7 @@ const Progress = ({ percentage = 0, type = "circle", max = 10, label="skills" })
 
   if (type === "circle") {
     return (
-      <div className="col-sm-4 text-center">
+      <div className="col-7 col-md-4 text-center">
         <AnimatedProgressProvider
           key={parsedPercentage}
           valueStart={0}

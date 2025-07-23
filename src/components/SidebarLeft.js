@@ -8,7 +8,7 @@ const SidebarLeft = ({name}) => {
         <div className="side-card">
             <div className="side-img-box">
                 <div className="side_card_img">
-                    <img src={`/images/avatar.svg`} />
+                    <img src={`/images/my-img.jpg`} alt="Ravi Pic" className="img-fluid" />
                 </div>
                 <div className="side_card_content">
                     <h3 className="title">{name}</h3>

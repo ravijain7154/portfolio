@@ -4,7 +4,7 @@ import logo from '../logo.svg';
 function Header() {
     return (
        
-        <nav className="navbar navbar-expand ">
+        <nav className="navbar navbar-expand-lg cuatom_header">
             <a href="/" className="navbar-brand">
                 <img src={logo} className="logo w-auto" alt="logo" width="80" height="80" />
             </a>
