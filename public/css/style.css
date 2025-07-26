@@ -3,10 +3,10 @@
     margin-top: 20px;
 }
 
-.cuatom_header {
+nav.cuatom_header {
     background: #2a334661;
     border-radius: 50px;
-    padding: 0px 35px;
+    padding: 0px 20px;
     top: 10px;
     backdrop-filter: blur(30px);
     color: #fff;
@@ -286,4 +286,67 @@ button.fixed {
 }
 button.fixed svg {
     color: #000;
+}
+
+.tab-content .card .card-img {
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+}
+.tab-content .card .card-img img {
+    position: absolute;
+    height: auto;
+    top: 0;
+    -webkit-transition: top 0s;
+    -moz-transition: top 0s;
+    -ms-transition: top 0s;
+    -o-transition: top 0s;
+    transition: top 8s;
+}
+/* .tab-content .card:hover .card-img {   overflow: scroll;} */
+.tab-content .card:hover .card-img img {
+    top:-120%;
+    -webkit-transition: all 8s;
+  -moz-transition: all 8s;
+  -ms-transition: all 8s;
+  -o-transition: all 8s;
+  transition: all 8s;
+}
+.tab-content .card{
+    position: relative;
+        transition: all 8s;
+        overflow: hidden;
+}
+.tab-content .card .overlay {
+    position: absolute;
+    background: #0000007a;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+      transition: all 1s;
+      width: 0;
+}
+.tab-content .card:hover .overlay {
+    z-index: 1;
+    right: 0;
+        transition: all 1s;
+        width: 100%;
+}
+.tab-content .card:hover .card-body a.btn {
+    z-index: 9;
+}
+
+
+.tabs button {
+    border-radius: 25px;
+    padding: 5px 20px;
+    color: #fff;
+    background: #3f4656;
+}
+.tabs button.tab.btn.btn-sm.btn-primary.active-btn {
+    background: #2b3345;
+    backdrop-filter: blur(10px);
+    color: #fddcb7;
+    border: 1px solid #fddcb7;
 }

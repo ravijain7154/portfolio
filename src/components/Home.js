@@ -14,6 +14,7 @@ import Aboutsection from './Aboutsection' ;
 // import Progress from './Progress' ;
 import Personal_info from './Personal_info' ;
 import Work_experience from './WorkExperience' ;
+import Portfolio from './Portfolio' ;
 
 
 function Home() {
@@ -28,6 +29,7 @@ function Home() {
                     <Aboutsection name ="Ravi Jain"/>
                     <Personal_info name ="Ravi Jain"/>
                     <Work_experience />
+                    <Portfolio />
                     
                 </div>
                 </div>

@@ -6,7 +6,7 @@ function Header() {
        
         <nav className="navbar navbar-expand-lg cuatom_header">
             <a href="/" className="navbar-brand">
-                <img src={logo} className="logo w-auto" alt="logo" width="80" height="80" />
+                <img src={logo} className="logo App-logo w-auto" alt="logo" width="80" height="80" />
             </a>
             <ul className="navbar-nav ms-auto gap-3">
                 <li className="nav-item"> <a className="nav-link" href="/"> Home</a></li>

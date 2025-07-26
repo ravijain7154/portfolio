@@ -22,7 +22,7 @@ const experienceData = [
     role: "Frontend Developer",
     company: "Braintree Products",
     responsibilities: [
-      "Developed and customized over 10+ Shopify storefronts, improving conversion rate and UI/UX.",
+
       "Develop and maintain user-facing features using HTML, CSS, and JavaScript. ",
       "Implement responsive designs that work well across different devices and screen sizes. ",
       "Collaborate with UX/UI team for user-friendly interfaces. ",
