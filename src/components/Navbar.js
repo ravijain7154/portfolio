@@ -1,4 +1,4 @@
-import { Nav, Navbar, Offcanvas, Container } from 'react-bootstrap';
+import { Nav, Navbar, Offcanvas } from 'react-bootstrap';
 import logo from '../logo.svg';
 import React, { useState, useEffect } from "react";
 import { Link } from 'react-router-dom';

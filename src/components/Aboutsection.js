@@ -18,9 +18,9 @@ const Aboutsection = ({name}) => {
                     I have hands-on experience integrating RESTful APIs and optimizing performance for scalable applications. Always eager to learn, 
                     I stay updated with the latest tech trends and am committed to delivering impactful digital experiences that make a difference.
                  </p>
-                 <a href="#" className="btn custom_btn">
+                 <button type="button" className="btn custom_btn">
                     Share
-                 </a>
+                 </button>
              </div>
            </div>
         </section>

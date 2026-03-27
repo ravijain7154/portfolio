@@ -11,7 +11,7 @@ const Personal_info = ({name}) => {
              <div className="col-md-6 col-12 rich-text">
                 <h2 className="title-sm">Personal Information</h2>
                 <ul className='info_list'>
-                    <li className='info_item'><span className='label'><strong>Name : </strong></span> <a href='#' className='name '>{name}</a></li>
+                    <li className='info_item'><span className='label'><strong>Name : </strong></span> <span className='name '>{name}</span></li>
                     <li className='info_item'><span className='label'><strong>D.O.B : </strong></span><span className=''>March 25, 1999</span> </li>
                     <li className='info_item'><span className='label'><strong>Email : </strong></span> <a href='mailto:ravijain7154@gmail.com' className='mail '>ravijain7154@gmail.com</a></li>
                     <li className='info_item'><span className='label'><strong>Phone : </strong></span> <a href='tel:+917073936166' className='mail '>+917073936166</a></li>    
