@@ -19,13 +19,13 @@ import Portfolio from './Portfolio' ;
 
 function Home() {
     return (
-        <main id ="main">
+        <>
             {/* <div className="container"> */}
-                <div className="row">
-                 <div className="col-md-3 side-bar">
+            <div className="row mt-4 mx-0">
+                 <div className="col-lg-3 side-bar">
                   <SidebarLeft name ="Ravi Jain" />
                  </div>
-                <div className="col-md-9 middle">
+                <div className="col-lg-9 middle">
                     <Aboutsection name ="Ravi Jain"/>
                     <Personal_info name ="Ravi Jain"/>
                     <Work_experience />
@@ -34,7 +34,7 @@ function Home() {
                 </div>
                 </div>
             {/* </div> */}
-        </main>
+        </>
     );
 }
 

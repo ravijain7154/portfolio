@@ -3,6 +3,9 @@
     margin-top: 20px;
 }
 
+.scrolled-conainer #sidebar-left {
+    top: 100px;
+}
 nav.cuatom_header {
     background: #2a334661;
     border-radius: 50px;
@@ -18,6 +21,8 @@ nav.cuatom_header {
     letter-spacing: 1px;
     font-weight: 500;
 }
+
+
 
 /* side bar */
 #sidebar-left {
@@ -316,6 +321,9 @@ button.fixed svg {
     position: relative;
         transition: all 8s;
         overflow: hidden;
+        background: #222833;
+        border: 1px solid #404655;
+        color: #fff;
 }
 .tab-content .card .overlay {
     position: absolute;
@@ -336,6 +344,46 @@ button.fixed svg {
 .tab-content .card:hover .card-body a.btn {
     z-index: 9;
 }
+.tab-content .card .card-body {
+    text-align: left;
+    position: relative;
+    z-index: 2;
+}
+.project-category {
+    color: #fbdcba;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.tech-badge {
+    background: #3f4656;
+    border-radius: 20px;
+    color: #fff;
+    display: inline-flex;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 6px 12px;
+}
+.project-description {
+    color: #d7dbe4;
+    display: -webkit-box;
+    line-height: 1.6;
+    min-height: 78px;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+.project-url {
+    color: #9ba7bc;
+    font-size: 14px;    
+    margin-bottom: 16px;
+}
 
 
 .tabs button {
@@ -349,4 +397,37 @@ button.fixed svg {
     backdrop-filter: blur(10px);
     color: #fddcb7;
     border: 1px solid #fddcb7;
+}
+
+
+@media (max-width: 992px) {
+    .hidden-sm{
+    display: none;
+}
+    .exp-block_content {
+    width: 100%;
+    margin: 0;
+    text-align: left;
+    padding: 0;
+}
+.exp-block_content .exp_year {
+    position: unset;
+    margin-bottom: 20px;
+    display: block;
+    border-radius: 50px;
+}
+
+h3.title {
+    font-size: 60px;
+    font-family: fangsong;
+}
+
+}
+
+
+@media (max-width: 768px) {
+
+  .offcanvas:not(.show) {
+    display: none;
+}
 }
