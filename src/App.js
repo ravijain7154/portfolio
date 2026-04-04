@@ -5,6 +5,7 @@ import Home from './components/Home';
 import Projects from './pages/Projects';
 import Resume from './pages/Resume';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import BackToTopButton  from './components/BackToTopButton';
 import React, { useState, useEffect } from "react";
 
@@ -34,14 +35,15 @@ function App() {
   return (
     <div className="App">
       <Router>
-      <div className={`container-md-fluid container-lg  ${scrolled ? 'scrolled-conainer' : ''}`}>
+      <div className={`main-container container-md-fluid container-lg  ${scrolled ? 'scrolled-conainer' : ''} px-0`}>
         <Navbar/>
         <Routes>
          <Route path="/" element={<Home/>} />
          <Route path="/projects" element={<Projects/>} />
          <Route path="/resume" element={<Resume/>} />
         </Routes>
-        </div>
+      </div>
+      <Footer />
       </Router>
      <BackToTopButton/>
     </div>

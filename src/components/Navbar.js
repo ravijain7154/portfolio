@@ -5,6 +5,9 @@ import { Link } from 'react-router-dom';
 
 function Header() {
   const [scrolled, setScrolled] = useState(false);
+  const [showOffcanvas, setShowOffcanvas] = useState(false);
+  const handleCloseOffcanvas = () => setShowOffcanvas(false);
+  const handleShowOffcanvas = () => setShowOffcanvas(true);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -32,13 +35,15 @@ function Header() {
         </Navbar.Brand>
 
         {/* Toggle Button */}
-        <Navbar.Toggle aria-controls="offcanvasNavbar" />
+        <Navbar.Toggle aria-controls="offcanvasNavbar" onClick={handleShowOffcanvas} />
 
         {/* Offcanvas Menu */}
         <Navbar.Offcanvas
           id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel"
           placement="end"
+          show={showOffcanvas}
+          onHide={handleCloseOffcanvas}
         >
           <Offcanvas.Header closeButton>
             <Offcanvas.Title id="offcanvasNavbarLabel">
@@ -50,25 +55,40 @@ function Header() {
             <Nav className="ms-auto">
 
               <Nav.Item>
-                <Nav.Link href="/">Home</Nav.Link>
+                <Nav.Link as={Link} to="/" onClick={handleCloseOffcanvas}>
+                  Home
+                </Nav.Link>
               </Nav.Item>
 
               <Nav.Item>
-                <Nav.Link href="/#about">About</Nav.Link>
+                <Nav.Link href="/#about" onClick={handleCloseOffcanvas}>
+                  About
+                </Nav.Link>
               </Nav.Item>
 
               <Nav.Item>
-                <Nav.Link href="/#portfolio">Projects</Nav.Link>
+                <Nav.Link href="/#portfolio" onClick={handleCloseOffcanvas}>
+                  Projects
+                </Nav.Link>
               </Nav.Item>
 
+              {/* <Nav.Item>
+                <Nav.Link href="/#genai" onClick={handleCloseOffcanvas}>
+                  Gen AI
+                </Nav.Link>
+              </Nav.Item> */}
+
               <Nav.Item>
-                <Nav.Link href="/#exp">Exp</Nav.Link>
+                <Nav.Link href="/#exp" onClick={handleCloseOffcanvas}>
+                  Experience
+                </Nav.Link>
               </Nav.Item>
 
               <Nav.Item>
                 <Nav.Link
                   as={Link}
                   to="/resume"
+                  onClick={handleCloseOffcanvas}
                 >
                   Resume
                 </Nav.Link>

@@ -7,7 +7,7 @@ const Personal_info = ({name}) => {
     return (
       <Slide triggerOnce = "true"  direction = "up">
          <section  id="info" className="info-section mid-section mb-4">
-            <div className="row">
+            <div className="row g-4">
              <div className="col-md-6 col-12 rich-text">
                 <h2 className="title-sm">Personal Information</h2>
                 <ul className='info_list'>
@@ -18,7 +18,7 @@ const Personal_info = ({name}) => {
                 </ul>
              </div>
              <div className="col-md-6 col-12 rich-text">
-                <h2 className="title-sm">languages</h2>
+                <h2 className="title-sm">Languages</h2>
                
                     <div className='progress_bullet_group'>
                       <span className='label'>
@@ -31,28 +31,25 @@ const Personal_info = ({name}) => {
                       <Progress percentage={90} type="bullet" max={10} />
 
                     </div>
-      
+
              </div>
-             <hr></hr>
-             <h2 className="title-sm text-start mb-3">Professional Skills</h2>
+             <div className="col-12">
+               <div className="section-divider"></div>
+             </div>
+             <div className="col-12 rich-text">
+               <h2 className="title-sm text-start mb-3">Professional Skills</h2>
+             </div>
              <div className="col-md-6 col-12 rich-text">
-                  <Progress percentage={85} type="linear" label="Html & Css" />
+                  <Progress percentage={85} type="linear" label="HTML & CSS" />
                   <Progress percentage={80} type="linear" label="Shopify" />
-                  <Progress percentage={75} type="linear" label="Wordpress" />
+                  <Progress percentage={75} type="linear" label="WordPress" />
                   <Progress percentage={75 } type="linear" label="PHP & MySQL" />
-      
              </div>
-             <div className="col-md-6 col-12 rich-text  pt-4 pt-md-0">
-                
-                <div className='row justify-content-center py-md-4 gap-4 gap-md-0'>
+             <div className="col-md-6 col-12 rich-text pt-2 pt-md-0">
+                <div className='row justify-content-center py-md-4 gap-md-0 skill-circle-grid'>
                     <Progress percentage={75} type="circle" label="React"/>
-        
                     <Progress percentage={70} type="circle" label="Node"/>
-                    
                     <Progress percentage={70} type="circle"  label="Js" />
-                    
-                    {/* <Progress percentage={80} type="circle" label="Html & Css" /> */}
-                    
                 </div>
              </div>
            </div>

@@ -17,7 +17,7 @@ const Projects = () => {
           <div className="mb-4 text-center text-md-start">
             <h2 className="title-sm mb-2">All Portfolio Projects</h2>
             <p className="des mb-0">
-              Browse all completed projects by platform and open any live website.
+              Browse selected work across Shopify, WordPress, Squarespace, and custom stacks.
             </p>
           </div>
 
@@ -47,7 +47,7 @@ const Projects = () => {
               damping={0.05}
               duration={1200}
             >
-              <div className="row tab-content mx-0">
+              <div className="row tab-content project-grid mx-0">
                 {filteredProjects.map((project, index) => (
                   <div className="col-sm-12 col-md-6 col-lg-4 mb-4" key={index}>
                     <div className="card h-100 shadow-sm">
