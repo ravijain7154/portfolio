@@ -42,7 +42,9 @@ const Portfolio = () => {
         <div className="rich-text portfolio-block">
           <div className="d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-3 mb-4">
             <h2 className="title-sm mb-0">My Portfolio Projects</h2>
-            
+            <p className="des mb-0">
+              Selected Shopify, React, WordPress, and custom web projects delivered for brands in ecommerce and business services.
+            </p>
           </div>
 
           <div className="tabs-container" style={{ overflow: "hidden" }}>

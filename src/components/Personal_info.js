@@ -13,6 +13,7 @@ const Personal_info = ({name}) => {
                 <ul className='info_list'>
                     <li className='info_item'><span className='label'><strong>Name : </strong></span> <span className='name '>{name}</span></li>
                     <li className='info_item'><span className='label'><strong>D.O.B : </strong></span><span className=''>March 25, 1999</span> </li>
+                    <li className='info_item'><span className='label'><strong>Location : </strong></span><span className=''>Indore, Madhya Pradesh, India</span> </li>
                     <li className='info_item'><span className='label'><strong>Email : </strong></span> <a href='mailto:ravijain7154@gmail.com' className='mail '>ravijain7154@gmail.com</a></li>
                     <li className='info_item'><span className='label'><strong>Phone : </strong></span> <a href='tel:+917073936166' className='mail '>+917073936166</a></li>    
                 </ul>

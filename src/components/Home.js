@@ -11,6 +11,7 @@ import "react-circular-progressbar/dist/styles.css";
 
 import SidebarLeft from './SidebarLeft' ;
 import Aboutsection from './Aboutsection' ;
+import SearchIntentSection from "./SearchIntentSection";
 // import GenAISection from './GenAISection';
 // import Progress from './Progress' ;
 import PersonalInfo from './Personal_info' ;
@@ -29,6 +30,7 @@ function Home() {
                  </div>
                 <div className="col-lg-9 middle">
                     <Aboutsection name ="Ravi Jain"/>
+                    <SearchIntentSection />
                     {/* <GenAISection /> */}
                     <PersonalInfo name ="Ravi Jain"/>
                     <WorkExperience />

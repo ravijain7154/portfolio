@@ -57,6 +57,10 @@ const descriptionMap = {
     "Built a custom website with HTML, PHP, and front-end scripting, focused on performance, responsive layouts, and clear navigation.",
 };
 
+const screenshotFolderMap = {
+  "HTML/PHP": "HTML_PHP",
+};
+
 const toTitleCase = (value) =>
   value
     .split(/[-_]/)
@@ -91,5 +95,6 @@ export const getAllProjects = () => Object.values(projectData).flat();
 
 export const getScreenshot = (url, category) => {
   const domain = new URL(url).hostname.replace("www.", "");
-  return `/screenshots/${category}/${domain}.png`;
+  const folderName = screenshotFolderMap[category] || category;
+  return `/screenshots/${folderName}/${domain}.png`;
 };

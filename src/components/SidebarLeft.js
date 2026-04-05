@@ -19,7 +19,7 @@ const SidebarLeft = ({ name }) => {
             <span className="availability-badge">Available for freelance projects</span>
             <h3 className="title">{name}</h3>
             <span className="subtitle">
-              Full Stack Developer | Shopify Expert | React &amp; Node.js Expert
+              Full Stack Developer | Shopify Expert | React Developer | Indore, India
             </span>
             {/* <p className="side_intro">
               Full Stack Shopify Developer with expertise in React.js, Node.js,

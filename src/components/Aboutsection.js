@@ -9,10 +9,11 @@ const Aboutsection = ({name}) => {
         <section id = "about" className="about-section mid-section mb-4">
            <div className="row">
              <div className="col-12 rich-text">
-                <h2 className="title-lg">About Me</h2>
-                <h3 className="subtitle mb-3">Hi, I'm <strong>{name}</strong></h3>
+                <p className="subtitle mb-2">About Me</p>
+                <h1 className="title-lg">Full Stack, Web, and Ecommerce Developer in Indore</h1>
+                <h2 className="subtitle mb-3">Hi, I&apos;m <strong>{name}</strong>, a developer based in Indore building modern websites, ecommerce storefronts, and digital products.</h2>
                  <p className="des">
-                    I am a Full Stack Developer and Shopify Developer specializing
+                    I am a full stack developer, Shopify developer, and frontend developer in Indore specializing
                     in React.js, Node.js, JavaScript, Liquid, and modern ecommerce
                     solutions. I create custom Shopify stores, responsive business
                     websites, and scalable web applications with a strong focus on
@@ -20,11 +21,18 @@ const Aboutsection = ({name}) => {
                  </p>
                  <p className="des">
                     With hands-on experience in frontend and backend development,
-                    I help businesses build fast, secure, and user-friendly digital
+                    I help businesses in Indore and across India build fast, secure, and user-friendly digital
                     products. From Shopify theme customization and custom sections
                     to React interfaces and Node.js functionality, my goal is to
                     deliver SEO-friendly websites and ecommerce experiences that
                     support long-term business growth.
+                 </p>
+                 <p className="des">
+                    I work with startups, agencies, and business owners who need
+                    reliable development support, thoughtful UI implementation,
+                    and websites that balance design quality, technical
+                    stability, and business
+                    performance.
                  </p>
 
                  <div className="highlight-grid">
@@ -39,6 +47,10 @@ const Aboutsection = ({name}) => {
                     <div className="highlight-card">
                       <strong>SEO Focused</strong>
                       <span>Building fast, search-friendly, and conversion-oriented digital experiences</span>
+                    </div>
+                    <div className="highlight-card">
+                      <strong>Indore Based</strong>
+                      <span>Available for local businesses in Indore as well as remote ecommerce projects</span>
                     </div>
                  </div>
 

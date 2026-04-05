@@ -9,10 +9,11 @@ const Footer = () => {
         <div className="site-footer-top">
           <div>
             <span className="site-footer-kicker">Available for freelance work</span>
-            <h2 className="site-footer-title">Let&apos;s build your next Shopify or web project</h2>
+            <h2 className="site-footer-title">Let&apos;s build your next Shopify, full stack, or web project</h2>
             <p className="site-footer-text">
-              Full Stack Shopify Developer building fast, modern React, Node.js,
-              and ecommerce experiences for growing brands.
+              Ravi Jain is a developer based in Indore, India building fast,
+              modern Shopify, React, Node.js, and ecommerce experiences for
+              growing brands.
             </p>
           </div>
           

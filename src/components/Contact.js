@@ -59,7 +59,10 @@ const Contact = ({name}) => {
          <section  id="contact" className="contact-section mid-section mb-4">
             <div className="row g-4">
              <div className="col-12 rich-text">
-                <h2 className="title-sm">Contact</h2>
+                <h2 className="title-sm">Contact Ravi Jain in Indore</h2>
+                <p className="des mb-3">
+                  Based in Indore, Madhya Pradesh and available for Shopify development, full stack development, React frontend work, ecommerce SEO improvements, custom sections, and business website development across India.
+                </p>
                 <ul className='contact_info_list'>
                     <li className='contact_info_item info_item'><span className='label'><strong><FontAwesomeIcon icon={faMap} size="2x"/></strong></span><span className=''>Indore</span> </li>
                     <li className='contact_info_item info_item'><span className='label'><strong><FontAwesomeIcon icon={faEnvelope} size="2x"/></strong></span> <a href='mailto:ravijain7154@gmail.com' className='mail '>ravijain7154@gmail.com</a></li>
