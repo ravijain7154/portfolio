@@ -1,3 +1,5 @@
+export const SITE_URL = "https://ravijain.vercel.app";
+
 export const HOME_KEYWORDS = [
   "Ravi Jain Indore",
   "Ravi Jain developer",

@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { SITE_URL } from "../seo";
 
 const DEFAULT_IMAGE = "/logo192.png";
 
@@ -47,7 +48,7 @@ const ensureJsonLd = (id, payload) => {
 
 const absoluteUrl = (path = "/") => {
   const normalizedPath = path.startsWith("/") ? path : `/${path}`;
-  return `${window.location.origin}${normalizedPath}`;
+  return `${SITE_URL}${normalizedPath}`;
 };
 
 function Seo({

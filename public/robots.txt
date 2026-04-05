@@ -1,6 +1,6 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Disallow:
+Allow: /
 
-# Add your final sitemap URL after deployment, for example:
-# Sitemap: https://your-domain.com/sitemap.xml
+Sitemap: https://ravijain.vercel.app/sitemap.xml
