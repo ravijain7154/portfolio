@@ -24,6 +24,13 @@ export const HOME_KEYWORDS = [
   "React developer India",
   "frontend developer India",
   "software developer India",
+  "Shopify developer",
+  "web developer",
+  "freelancer",
+  "freelance developer",
+  "developer in Indore",
+  "developer in India",
+  "Shopify developer India"
 ];
 
 export const createHomeSchema = (canonicalUrl, imageUrl) => ({
@@ -36,7 +43,7 @@ export const createHomeSchema = (canonicalUrl, imageUrl) => ({
       alternateName: ["Ravi Jain Indore", "Ravi Jain Developer"],
       jobTitle: "Full Stack Developer, Shopify Developer, and React Developer",
       description:
-        "Ravi Jain is a full stack developer in Indore, India helping businesses build ecommerce stores, custom Shopify themes, React interfaces, business websites, and SEO-friendly digital experiences.",
+        "Ravi Jain is a freelance web developer in Indore, India helping businesses build ecommerce stores, custom Shopify themes, React interfaces, business websites, and SEO-friendly digital experiences.",
       image: imageUrl,
       url: canonicalUrl,
       email: "mailto:ravijain7154@gmail.com",
@@ -63,6 +70,10 @@ export const createHomeSchema = (canonicalUrl, imageUrl) => ({
         "Website development",
         "Ecommerce development",
         "SEO-friendly ecommerce development",
+        "Freelance web development",
+        "Freelance Shopify development",
+        "Developer services in Indore",
+        "Web developer India",
       ],
       sameAs: [
         "https://github.com/ravijain7154",
