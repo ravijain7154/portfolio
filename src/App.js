@@ -41,8 +41,8 @@ function App() {
         <Navbar/>
         <Routes>
          <Route path="/" element={<><Seo
-            title="Ravi Jain | Freelance Web, Shopify, React & Full Stack Developer in Indore, India"
-            description="Ravi Jain is a freelance web developer, Shopify developer, full stack developer, and React developer in Indore, India building custom stores, business websites, and SEO-friendly digital experiences."
+            title="Ravi Jain | Freelance Shopify Expert & Web Developer in Indore, India"
+            description="Ravi Jain is a freelance Shopify expert developer and web developer in Indore, India building custom Shopify stores, business websites, and SEO-friendly digital experiences."
             path="/"
             keywords={HOME_KEYWORDS}
             schema={createHomeSchema}
